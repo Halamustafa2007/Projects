@@ -1,0 +1,419 @@
+
+    .thumbnail{
+    width: 100%;
+    }
+    .thumbnail-row {
+    margin-bottom: 8px;
+    position: relative;
+    }
+    .video-time{
+    font-family: roboto,arial;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    background-color: black;
+    color: white;
+    right: 5px;
+    bottom: 10px;
+    padding: 4px;
+    border-radius: 2px;
+    }
+
+    .video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+
+
+    }
+
+
+    .video-info-grid{
+    display:grid;
+    grid-template-columns: 50px 1fr;
+    }
+
+
+    .profile-pic {
+    width :36px;
+    border-radius: 50px;
+    }
+
+    @media(max-width:750px){
+    .video-grid{
+    grid-template-columns: 1fr 1fr;
+    }
+    }
+
+    @media(max-width:751px) and(min-width:1000px) {
+    .video-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    }
+
+    @media(min-width:1000px){
+    .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    }
+    }
+
+
+
+    .video-study{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 2px;
+
+    }
+
+    .pro-study {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 5px;
+    }
+
+
+    .view-study {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+
+    }
+
+
+
+
+
+    .video-clay {
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 2px;
+
+    }
+
+
+    .pro-clay{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 5px;
+    }
+
+
+    .view-clay{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+
+    }
+
+
+
+    .video-rain{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 2px;
+    }
+
+    .pro-rain{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 5px;
+    }
+
+    .view-rain{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    }
+
+
+
+
+    .video-water{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 2px;
+    }
+
+    .pro-water{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 5px;
+    }
+
+    .view-water{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    }
+
+
+
+
+    .video-hily{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 2px;
+    }
+
+    .pro-hily{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 5px;
+    }
+
+    .view-hily{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    }
+
+
+
+
+    .video-clay2{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 2px;
+    }
+
+    .pro-clay2{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 5px;
+    }
+
+    .view-clay2{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    }
+
+
+
+    .video-matcha{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 2px;
+    }
+
+    .pro-matcha{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 5px;
+    }
+
+    .view-matcha{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    }
+
+
+
+    .video-paint{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 2px;
+    }
+
+    .pro-paint{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 5px;
+    }
+
+    .view-paint{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    }
+
+
+
+
+    .video-java{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 2px;
+    }
+
+    .pro-java{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 5px;
+    }
+
+    .view-java{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    }
+
+
+
+    .video-py{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 2px;
+    }
+
+    .pro-py{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 5px;
+    }
+
+    .view-py{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    }
+
+
+
+
+    .video-c{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 2px;
+    }
+
+    .pro-c{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 5px;
+    }
+
+    .view-c{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    }
+
+
+
+    .video-js{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 2px;
+    }
+
+    .pro-js{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 5px;
+    }
+
+    .view-js{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    }
+
+
+
+    .video-weeknd {
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 2px;
+
+    }
+
+
+    .pro-weeknd{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 5px;
+    }
+
+
+    .view-weeknd{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+
+    }
+
+
+
+    .video-brent{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 2px;
+    }
+
+    .pro-brent{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 5px;
+    }
+
+    .view-brent{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    }
+
+
+
+    .video-frank{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 2px;
+    }
+
+    .pro-frank{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 5px;
+    }
+
+    .view-frank{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    }
+
+
+
+
+    .video-bille{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 2px;
+
+    }
+
+
+    .pro-bille{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 5px;
+    }
+
+
+    .view-bille {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+
+    }
